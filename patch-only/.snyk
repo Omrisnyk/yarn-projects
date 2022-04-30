@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@snyk/snyk-ui > @frctl/fractal > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > inquirer > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > inquirer > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > vorpal > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+  'npm:lodash:20180130':
+    - wemore > xmlbuilder > lodash:
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > cli-table2 > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > inquirer > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > cli-table2 > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > vorpal > inquirer > lodash':
+        patched: '2022-04-30T19:49:33.992Z'
+  'npm:minimatch:20160620':
+    - '@snyk/snyk-ui > gulp-sass-glob-import > glob > minimatch':
+        patched: '2022-04-30T19:49:33.992Z'
